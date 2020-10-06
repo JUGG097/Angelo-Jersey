@@ -1,6 +1,16 @@
 .jumbotron {
     padding-top: 100px;
     margin: 0px auto;
-    background-image: url("../img/sandro-schuh-HgwY_YQ1m0w-unsplash.jpg");
+   /*background-image: url("../img/sandro-schuh-HgwY_YQ1m0w-unsplash.jpg");*/
+   background-color: #8ee4af;
     color: floralwhite;
+}
+
+.navbar {
+    background-color: #379683;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding-top: 25px;
 }
