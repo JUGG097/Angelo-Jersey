@@ -32,3 +32,14 @@
 .navbar .navbar-toggler .navbar-toggler-icon {
     color: #05386b;
 }
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    border: #8ee4af solid;
+}
+
+.card:hover {
+    background-color: #8ee4af;
+}
