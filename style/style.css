@@ -1,3 +1,4 @@
+
 .jumbotron {
     padding-top: 100px;
     margin: 0px auto;
@@ -15,10 +16,20 @@
     margin: 0px auto;
     padding-top: 25px;
     padding-bottom: 10px;
+    /* -webkit-box-shadow: 10px 10px 44px 1px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 10px 44px 1px rgba(0,0,0,0.62);
+    box-shadow: 10px 10px 44px 1px rgba(0,0,0,0.62); */
+    /* color: #05386b; */
+}
+
+.row-content2 {
+    margin: 0px auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
     -webkit-box-shadow: 10px 10px 44px 1px rgba(0,0,0,0.62);
     -moz-box-shadow: 10px 10px 44px 1px rgba(0,0,0,0.62);
     box-shadow: 10px 10px 44px 1px rgba(0,0,0,0.62);
-    color: #05386b;
+    /* color: #05386b; */
 }
 
 .navbar .navbar-brand {
@@ -46,4 +57,8 @@
 
 .blockquote {
     padding: 20px;
+}
+
+h2 {
+    color: #05386b;;
 }
