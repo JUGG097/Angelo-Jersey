@@ -43,3 +43,7 @@
 .card:hover {
     background-color: #8ee4af;
 }
+
+.blockquote {
+    padding: 20px;
+}
