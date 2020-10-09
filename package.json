@@ -1,0 +1,19 @@
+{
+  "name": "angelo_jersey",
+  "version": "1.0.0",
+  "description": "Webpage for Angelo Jersey sports wear sales business",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUGG097/Angelo-Jersey.git"
+  },
+  "author": "Adeoluwa Adeboye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUGG097/Angelo-Jersey/issues"
+  },
+  "homepage": "https://github.com/JUGG097/Angelo-Jersey#readme"
+}
