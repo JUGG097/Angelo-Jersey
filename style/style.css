@@ -67,3 +67,16 @@ h2 {
     background-color: #8ee4af;
     padding-top: 20px;
 }
+
+.myfooter h5 {
+    color:  #05386b;
+}
+/* .myfooter li {
+     list-style: none;
+    
+ } */
+
+ .list-group-item {
+     background-color: #8ee4af;
+ }
+
