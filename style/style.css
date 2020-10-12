@@ -76,6 +76,7 @@ h2 {
 
 .myfooter h5 {
     color:  #05386b;
+    font-family: 'Rye', cursive;
 }
 /* .myfooter li {
      list-style: none;
@@ -86,4 +87,5 @@ h2 {
      background-color: #8ee4af;
      padding: 5px;
  }
+
 
