@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="icon" href="img/jersey.svg">
@@ -21,7 +22,7 @@
     <nav class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
            
-            <a class="navbar-brand" href="#">Angelo Jerseys</a>
+            <a class="navbar-brand" href="#"><span class="font-weight-bolder" style="color: #de2356;">A</span>ngelo <span class="font-weight-bolder" style="color: #d91b5c">J</span>erseys</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -31,10 +32,10 @@
             </button>
 
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link"><span class="fa fa-info fa-lg"></span>Contact Us</a></li>
-                    <li class="nav-item"><a href="#delivery" class="nav-link"><span class="fa fa-list fa-lg"></span>Delivery</a></li>
+                <ul class="navbar-nav ml-auto text-center font-weight-bold">
+                    <li class="nav-item active"><a href="#" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><i class="fas fa-phone"></i> Contact</a></li>
+                    <li class="nav-item"><a href="#delivery" class="nav-link"><i class="fas fa-shipping-fast"></i> Delivery</a></li>
                    
                 </ul>
 
@@ -197,41 +198,10 @@
                 </div>
             </div>
         
-             <!-- Might have to remove media because of responsiveness
-            <div class="col-12 col-sm-12 com-md-12">
-               
-                <div class="row">
-                    <div class="col col-sm col-md">
-                        <div class="media">
-                            <img src="img/media1.jpg" class="align-self-center mr-3 d-flex" alt="..." height="250px", width="250px">
-                            <div class="media-body align-self-center text-center">
-                            <h4 class="mt-0">Jersey Sales</h5>
-                            <p>We sell sport team jerseys of various teams and in various sizes.</p>
-                            
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12">
-                <div class="row mt-3">
-                    <div class="col col-sm col-md">
-                        <div class="media">
-                            <div class="media-body align-self-center text-center">
-                                <h4 class="mt-0">Jersey Customization</h5>
-                                <p>We also carry out all forms of Customization on sport team jerseys.</p>
-                            
-                            </div>
-                            <img src="img/media2.jpg" class="align-self-center ml-3 d-flex" alt="..." height="250px", width="250px">
-                        
-                        </div>
-                    </div>
-                </div>
-            </div>-->
+            
         </div> 
 
-
+        <div id="products"></div>
         <div class="row text-center row-content mt-3">
             <div class="col-12 col-sm-12 col-md-12">
                 <h2>In Stock</h2>
@@ -337,7 +307,7 @@
         </div>
 
        
-
+        <div id="reviews"></div>
         <div class="row text-center row-content2  mt-3">
             <div class="col-12 col-sm-12 col-md-12">
                 <h2>What our Customers Say</h2>
@@ -421,20 +391,21 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-12 col-sm-4 text-center">
+                <div class="col-12 col-sm-4 text-center mt-2">
                     <h5>Angelo Jerseys</h5>
-                    <p>Home of sport jerseys...</p>
+                    <p class="font-weight-bold">Home of sport jerseys...</p>
                 </div>
-                <div class="col-12 col-sm-4 text-center">
+                <div class="col-12 col-sm-4 text-center mt-2">
                     <h5>Links</h5>
 
                     <div class="list-group-flush">
-                        <a href="" class="list-group-item list-group-item-action">Home</a>
-                        <a href="" class="list-group-item list-group-item-action">Contact Us</a>
-                        <a href="" class="list-group-item list-group-item-action">Catalogue</a>
+                        <a href="index.html" class="list-group-item list-group-item-action">Home</a>
+                        <a href="#products" class="list-group-item list-group-item-action">Products</a>
+                        <a href="#reviews" class="list-group-item list-group-item-action">Reviews</a>
+                        <a href="#delivery" class="list-group-item list-group-item-action">Delivery</a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 text-center">
+                <div class="col-12 col-sm-4 text-center mt-2">
                     <h5>Contact Us</h5>
                     
                     <div class="list-group-flush">

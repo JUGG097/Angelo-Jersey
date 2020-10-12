@@ -34,10 +34,16 @@
 
 .navbar .navbar-brand {
     color: #05386b;
+    font-family: 'Rye', cursive;
+    font-size: 25px;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
     color: #05386b;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: floralwhite;
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
