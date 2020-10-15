@@ -23,7 +23,7 @@ gulp.task('imagemin', function() {
 gulp.task('usemin', function() {
     return gulp.src('./index.html')
     .pipe(myusemin({
-      css: [ myrev() ],
+      css: [ cleanCss(), myrev() ],
       html: [ htmlmin({ collapseWhitespace: true }) ],
       js: [ uglify(), myrev() ],
       inlinejs: [ uglify() ],
